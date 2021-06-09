@@ -1,0 +1,8 @@
+body {
+  box-sizing: border-box;
+  background: url(./bg.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(24, 2, 39);
+  font-size: x-large;
+}
