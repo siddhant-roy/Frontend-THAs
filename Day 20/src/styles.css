@@ -1,0 +1,30 @@
+body {
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  height: 450px;
+  width: 400px;
+  font-size: 1rem;
+  overflow: scroll;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px gray;
+  border: 1px solid black;
+}
+
+.components {
+  height: 100px;
+  width: 370px;
+  background-color: #7fdc55;
+  border: 2px solid black;
+  margin: 8px;
+}
+
+button{
+  left: 60px;
+}
