@@ -1,0 +1,60 @@
+body {
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  /*background-color: #7000ff;*/
+  background: linear-gradient(43deg, #7000ff 0%, #4c50ef 17%, #71d087 39%, #b3e562 60%, #ffce66 80%, #e52d2d 100%);
+  ;
+  background-repeat: no-repeat;
+}
+
+#title, #number{
+  border-radius: 2px;
+  border: 1px solid rgb(107, 107, 107);
+  display: flex;
+  align-items: flex-end;
+}
+
+form{
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(248, 245, 241);
+}
+
+button{
+background: linear-gradient(149deg, rgba(68,72,228,1) 0%, rgba(134,12,200,1) 94%);
+margin: 5px;
+border-radius: 7px;
+border: 1px solid rgba(34, 34, 34, 0.253);;
+}
+
+.Card {
+  width: 90%;
+  background: olivedrab;
+  margin: 6px;
+  border-radius: 5px;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+  height: 90px;
+  padding: 15px;
+}
+.Card h2 {
+  margin-bottom: 0;
+}
+.instructions {
+  min-height: 40px;
+  padding: 15px 0;
+}
+.instructions > h1 {
+  text-align: center;
+}
+.Card .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+
